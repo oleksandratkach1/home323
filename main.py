@@ -1,4 +1,5 @@
-from utils import factorial, is_prime
+from utils import factorial, is_prime, is_power_of_2
 
-print("Factorial of 5:", factorial(5))
-print("Is 7 prime?", is_prime(7))
+print( factorial(5))
+print( is_prime(7))
+print( is_power_of_2(64))
